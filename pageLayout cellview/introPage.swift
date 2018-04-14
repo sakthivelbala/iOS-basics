@@ -63,6 +63,7 @@ class introPage: UICollectionViewController,UICollectionViewDelegateFlowLayout {
         collectionView?.scrollToItem(at:IndexPath(item: nextIndex, section: 0),at: .centeredHorizontally,animated:true)
     }
     func mainPrpgramNavigation(){
+        //tabBarController
         let tabBarController=UITabBarController()
         let mainscreen=UINavigationController(rootViewController:
             mainScreen(collectionViewLayout: UICollectionViewFlowLayout()))
